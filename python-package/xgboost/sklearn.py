@@ -1116,7 +1116,7 @@ class XGBModel(XGBModelBase):
                 xgb_model=model,
                 callbacks=self.callbacks,
             )
-
+            print("-------checkpoint-fit--------------")
             self._set_evaluation_result(evals_result)
             return self
 
