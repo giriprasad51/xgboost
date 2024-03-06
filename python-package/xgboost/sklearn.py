@@ -813,6 +813,7 @@ class XGBModel(XGBModelBase):
         self
 
         """
+        print("-------checkpoint-set_parms--------------")
         if not params:
             # Simple optimization to gain speed (inspect is slow)
             return self
