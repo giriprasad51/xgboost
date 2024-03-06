@@ -1024,6 +1024,7 @@ class XGBModel(XGBModelBase):
         base_margin_eval_set: Optional[Sequence[ArrayLike]] = None,
         feature_weights: Optional[ArrayLike] = None,
     ) -> "XGBModel":
+        print("-------checkpoint-fit--------------")
         # pylint: disable=invalid-name,attribute-defined-outside-init
         """Fit gradient boosting model.
 
