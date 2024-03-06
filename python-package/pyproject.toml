@@ -30,13 +30,11 @@ classifiers = [
 dependencies = [
     "numpy",
     "scipy",
-    "nvidia-nccl-cu12 ; platform_system == 'Linux' and platform_machine != 'aarch64'"
 ]
 
 [project.urls]
 documentation = "https://xgboost.readthedocs.io/en/stable/"
 repository = "https://github.com/giriprasad51/xgboost.git"
-git_branch = "dev"
 
 [project.optional-dependencies]
 pandas = ["pandas"]
