@@ -858,7 +858,7 @@ class XGBModel(XGBModelBase):
             params["random_state"] = int(
                 params["random_state"].integers(np.iinfo(np.int32).max)
             )
-
+        print("-------checkpoint-params--------------")
         return params
 
     def get_xgb_params(self) -> Dict[str, Any]:
